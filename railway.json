@@ -1,6 +1,9 @@
 {
-    "$schema": "https://backboard.railway.app/railway.schema.json",
-    "build": {
-        "builder": "RAILPACK"
-    }
+  "$schema": "https://backboard.railway.app/railway.schema.json",
+  "build": {
+    "builder": "RAILPACK"
+  },
+  "deploy": {
+    "startCommand": "npm run develop"
+  }
 }
