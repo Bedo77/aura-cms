@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
-
- "scripts": {
+  "scripts": {
     "build": "cross-env NODE_ENV=production strapi build",
     "console": "strapi console",
     "deploy": "strapi deploy",
@@ -15,7 +14,6 @@
     "upgrade": "npx @strapi/upgrade latest",
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
-
   "dependencies": {
     "@strapi/plugin-users-permissions": "5.18.1",
     "@strapi/provider-upload-local": "5.18.1",
@@ -26,14 +24,14 @@
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {
-    "cross-env": "^10.0.0"
-  },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
     "uuid": "ae97edc3-b9a5-4000-bd34-43b102ca9a04"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
