@@ -8,9 +8,12 @@ module.exports = (config) => {
         '@': '/src',
       },
     },
-    // Add this server configuration block to allow the healthcheck
+    // Add BOTH hosts to the allowed list
     server: {
-      allowedHosts: ['healthcheck.railway.app'],
+      allowedHosts: [
+        'healthcheck.railway.app',
+        'strapi-production-b2ff.up.railway.app'
+      ],
     },
   });
 };
