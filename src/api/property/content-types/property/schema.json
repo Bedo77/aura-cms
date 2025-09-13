@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "singularName": "property",
+    "pluralName": "properties",
+    "displayName": "Property"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "address": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "State": {
+      "type": "string"
+    },
+    "tour_data": {
+      "type": "json"
+    }
+  }
+}
