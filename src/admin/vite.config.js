@@ -8,5 +8,9 @@ module.exports = (config) => {
         '@': '/src',
       },
     },
+    // Add this server configuration block to allow the healthcheck
+    server: {
+      allowedHosts: ['healthcheck.railway.app'],
+    },
   });
 };
